@@ -29,16 +29,16 @@ let a = 1
 let b = 2
 let c = 3
 let d = 4 
-/*{
+{
     let a=3
     console.log (a);
-}*/
-/*console.log(a)
+}
+console.log(a)
 console.log(b)
 console.log(c) 
-console.log(d) */
+console.log(d) 
 
-/*Function
+//Function
 let a=1
 let b=2
 function Sum(a,b) {
@@ -50,11 +50,11 @@ console.log(Sum(a,b));
 const Sum =(a,b)=>{
    return (a+b)
 }
-console.log(Sum(2,4));*/
+console.log(Sum(2,4));
 
 // Pass by reference
 // "How can you use a function passed as an argument to another function to update the values of variables a and b to 4 and 5 respectively?"
-/*let a = 2
+let a = 2
 let b = 3
 const function1 = (updatebyref) => {
     return updatebyref(10, 15)
@@ -65,7 +65,7 @@ const function2 = (new1, new2) => {
 }
 function1(function2)
 console.log("updated values of a & b are " + a, b)*/
-  
+  //New one
 let a=3
 let b=6
 const function1=(Updatedbyreference)=>{
@@ -76,4 +76,5 @@ const function2=(new1,new2)=>{
     b=new2;
 }
 function1(function2)
-console.log(a,b);
+console.log("updates value of a and b are" + a,b);
+//console.log (“updated values of a and b are” , a , “ “, b)
