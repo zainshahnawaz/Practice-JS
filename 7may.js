@@ -1,6 +1,6 @@
     // create an array and store 3 names of cars in it
     // storing values in array    
-    const arr=["civic", "corolla", "audi"];
+    /* const arr=["civic", "corolla", "audi"];
     // accessing values in array values can be accessed by index
     console.log(arr[2])
     // lenght of arr
@@ -60,4 +60,4 @@
     const temp=position1;
     position1=position2;
     position2=temp;
-    console.log(position1,position2)
+    console.log(position1,position2)*/
